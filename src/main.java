@@ -40,6 +40,24 @@ public class Main {
         
         list.add(first);
         first.print();
+        
+        // PRELIMINARY shouldn't actually work yet.
+        for (int i = 0; i < 100000; i++)
+        {
+        	// Creates an Event object.
+        	Event ev;
+        	
+        	// Gets the first event from the double linked list.
+        	ev = list.remove();
+        	
+        	// IF event is an arrival.
+        	if ('A' == ev.eventType){
+        		
+        	} //if
+        	else{
+        		
+        	} //else
+        }
 		
 	}
 }
