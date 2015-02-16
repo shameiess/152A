@@ -17,8 +17,6 @@ public class Event {
         eventTime_departure = 0;
         eventType = 'X';
     }
-    
-    // Constructor.
     public Event(double time, double service, char type) {
     	eventTime = time;
     	serviceTime = service;
@@ -30,6 +28,5 @@ public class Event {
         System.out.print("eventTime is: " + this.eventTime + ". serviceTime is " + this.serviceTime + " For event: " + this.eventType
         );
     }
-
 
 }
